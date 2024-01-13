@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite">
+    <listeners>
+        <listener class-name="org.interview.listners.CustomListenersImpl"/>
+    </listeners>
+    <test name="Functional">
+        <classes>
+            <class name="org.interview.test.HomePageTest"/>
+        </classes>
+    </test>
+
+
+
+    <!-- Add more test cases as needed -->
+
+</suite>
